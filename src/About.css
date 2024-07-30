@@ -1,0 +1,15 @@
+.about{
+    padding: 3rem;
+    background-color: #EDEDED;
+}
+
+.about h1{
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 1.5rem;
+}
+
+.about p{
+    color: #424242;
+    font-size: larger;
+}

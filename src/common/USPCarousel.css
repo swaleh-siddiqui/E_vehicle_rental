@@ -1,0 +1,55 @@
+.usp-carousel {
+    margin: auto;
+    width: 100%;
+    padding:2rem ;
+    background-color: #EDEDED;
+  }
+
+
+  .usp-carousel h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: rgb(231, 231, 0);
+    text-shadow: 2px 2px 6px rgb(96, 96, 0);
+  }
+
+
+
+
+  
+  .usp-slide {
+    text-align: left;
+    /* padding: 1rem; */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap:  2rem !important;
+    flex-wrap: wrap;
+  }
+
+  .usp-slide img{
+    width: auto;
+    height: 30vw;
+  }
+
+  .usp-slide .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 70vh;
+  }
+  
+  .usp-slide h3 {
+    font-size: 3rem;
+    color: #252525;
+    margin-bottom: 1rem;
+  }
+  
+  .usp-slide p {
+    font-size: 1.2rem;
+    color: #3C3C3C;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: pre-wrap; 
+  }

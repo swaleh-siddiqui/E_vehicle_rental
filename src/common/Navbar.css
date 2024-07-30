@@ -1,0 +1,41 @@
+/* ○ Dark grey : #424242 , #2C2A2A , #3C3C3C , #414141 , #373737
+○ Black : #252525 , #202020 , #131313
+○ White : #FFFFFF , #EDEDED , #F2F2F2 , #FAFAFA
+○ Yellow : #F9ED32 , #FFF225 */
+
+
+
+.navbar{
+    /* box-shadow: 0px 0px 8px grey; */
+    color: black;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.navbar-nav{
+    padding: 0 1rem;
+}
+
+.logo{
+    padding: 0;
+}
+
+.logo img{
+    height: 4rem;
+}
+
+/* .collapse{
+    display: flex !important;
+    justify-content: flex-end !important;
+} */
+
+
+
+
+
+
+
+
+
+
+

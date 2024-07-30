@@ -1,0 +1,33 @@
+.fullProduct{
+    background-color: #EDEDED ;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.imagePro{
+    padding: 1rem;
+}
+
+
+.imagePro img{
+    width: 40vw;
+}
+
+.descPro{
+    max-width: 60vh;
+}
+
+.det{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    gap: 1rem;
+}
+
+.det .head{
+    max-width: 40%;
+    text-align: left;
+}

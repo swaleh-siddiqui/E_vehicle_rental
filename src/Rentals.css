@@ -1,0 +1,28 @@
+.rentals{
+    padding: 3rem;
+    background-color: #EDEDED;
+}
+
+.rentals h1{
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 1.5rem;
+}
+
+.rentals p{
+    color: #424242;
+    font-size: larger;
+}
+
+.downloads{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.download{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem;
+}
