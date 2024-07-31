@@ -34,3 +34,11 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+
+.MuiButtonBase-root:hover{
+  color: black !important;
+  border-color: black !important;
+}

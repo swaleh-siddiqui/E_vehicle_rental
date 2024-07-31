@@ -1,12 +1,16 @@
-footer {
+.footer {
     background-color: #131313 !important;
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-footer a {
-    color: white;
+.container{
+    background-color: #131313 !important;
+}
+
+.footer a {
+    color: white ;
     text-decoration: none;
 }
 
