@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import "./Navbar.css"
 import logo from "./rhyno_logo.png"
 
@@ -17,10 +17,12 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ">
                 <li className="nav-item">
-                  <Link to={"/"} className="link nav-link">Home</Link>
+                  <NavLink to={"/"} activeCllassName="active" className="link nav-link">Home</NavLink>
+                  <div className="line"></div>
                 </li>
                 <li className="nav-item">
-                  <Link to={"/about-us"} className="link nav-link">About Us</Link>
+                  <NavLink to={"/about-us"} activeCllassName="active" className="link nav-link">About Us</NavLink>
+                  <div className="line"></div>
                 </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,9 +37,11 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <a href="#Footer" className="link nav-link">Contact Us</a>
+                  <div className="line"></div>
                 </li>
                 <li className="nav-item">
-                  <Link className="link nav-link">Pre Book</Link>
+                  <NavLink to={"/pre-book"} activeCllassName="active" className="link nav-link">Pre Book</NavLink>
+                  <div className="line"></div>
                 </li>
               </ul>
             </div>
