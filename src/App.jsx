@@ -8,7 +8,7 @@ import Product3 from './Product3';
 import Rentals from './Rentals';
 import Footer from './common/Footer';
 import CompareAll from './CompareAll';
-
+import PreBook from './PreBook';
 
 import './App.css';
 
@@ -23,7 +23,7 @@ const App = () => (
         <Route path="/product2" element={<Product2 />} />
         <Route path="/product3" element={<Product3 />} />
         <Route path="/compare" element={<CompareAll />} />
-        {/* <Route path="/pre-book" element={<PreBook />} /> */}
+        <Route path="/pre-book" element={<PreBook />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/rentals" element={<Rentals />} />
       </Routes>

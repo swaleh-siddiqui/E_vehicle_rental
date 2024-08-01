@@ -4,7 +4,6 @@ import "./Navbar.css"
 import logo from "./rhyno_logo.png"
 
 
-
 function Navbar() {
   return (
       <>

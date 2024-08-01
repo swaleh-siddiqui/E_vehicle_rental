@@ -1,0 +1,31 @@
+
+
+.vehicle-rental-form {
+    max-width: 500px;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #F9ED32;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #F9ED32;
+  }
+
+  
+  .message{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    margin: 3rem;
+    color:  #F9ED32;
+    background-color: #202020;
+    border-radius: 3rem;
+  }
+
+  .btns{
+    display: flex;
+
+  }
