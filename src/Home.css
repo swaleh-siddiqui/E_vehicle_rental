@@ -1,3 +1,7 @@
+
+
+
+
 .front{
     position: relative !important;
     padding: 0;
@@ -75,6 +79,17 @@
 }
  */
 
+
+
+ .floating{
+    position: fixed !important;
+    right: -3% !important;
+    top:  45% !important;
+    background-color: #F9ED32 !important;
+    z-index: 5;
+
+    transform: rotate(-90deg);
+ }
 
 
 

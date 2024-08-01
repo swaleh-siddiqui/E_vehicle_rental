@@ -11,6 +11,8 @@ import bike3 from "./assets/bike3.png"
 import VehicleCard from "./common/VehicleCard";
 import USPCarousel from "./common/USPCarousel";
 
+import { Link, NavLink } from 'react-router-dom'
+
 
 let img1 = "https://images.unsplash.com/photo-1504370805625-d32c54b16100?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 
@@ -54,6 +56,10 @@ function Home() {
 
   return (
     <>
+        <button className="floating">
+          <Link to={"/pre-book"} >Pre-Book</Link>
+        </button>
+
         <div className="front">
             <div className="img">
             <img src={frontImg} alt="" />
